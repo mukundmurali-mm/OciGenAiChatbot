@@ -19,7 +19,7 @@ st.title("OCI GenAI chatbot")
 """
 A basic example of using OCI Gen AI services and Langchain wrapped around streamlit to provide a simple chatbot. 
 View the
-[source code for this app](https://github.com/langchain-ai/streamlit-agent/blob/main/streamlit_agent/basic_memory.py).
+[source code for this app](https://github.com/mukundmurali-mm/OciGenAiChatbot/edit/main/GenAiChatbot.py).
 """
 
 # Set up memory
