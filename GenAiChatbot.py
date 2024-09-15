@@ -34,7 +34,7 @@ view_messages = st.expander("View the message contents in session state")
 llm = OCIGenAI(
     model_id="cohere.command", # Update the OCI GenAI model ID here
     service_endpoint="https://inference.generativeai.us-chicago-1.oci.oraclecloud.com",
-    compartment_id="ocid1.compartment.oc1..aaaaaaaajbsk4btzn6oymimjelztkawcgf2qwq3jlnhrwn4pnnla2umcsmva",# Update the OCI GenAI compartment ID here
+    compartment_id="<compartment ID>",# Update the OCI GenAI compartment ID here
     is_stream=True,
     model_kwargs={"temperature": 0, "max_tokens": 500} # Update the OCI GenAI model parameters here
 )
